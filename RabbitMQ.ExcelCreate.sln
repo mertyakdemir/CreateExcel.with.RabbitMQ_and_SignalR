@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ExcelCreate.Web", "RabbitMQ.ExcelCreate.Web\RabbitMQ.ExcelCreate.Web.csproj", "{8F20DDA4-8B04-4181-BCCA-F1FE45F9FB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{BF7288A5-CB9C-4A57-8D60-9A1838A70D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{CA30DBA3-2891-4073-BA0E-27E682FF5C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F20DDA4-8B04-4181-BCCA-F1FE45F9FB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F20DDA4-8B04-4181-BCCA-F1FE45F9FB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F20DDA4-8B04-4181-BCCA-F1FE45F9FB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F20DDA4-8B04-4181-BCCA-F1FE45F9FB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7288A5-CB9C-4A57-8D60-9A1838A70D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7288A5-CB9C-4A57-8D60-9A1838A70D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7288A5-CB9C-4A57-8D60-9A1838A70D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7288A5-CB9C-4A57-8D60-9A1838A70D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA30DBA3-2891-4073-BA0E-27E682FF5C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA30DBA3-2891-4073-BA0E-27E682FF5C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA30DBA3-2891-4073-BA0E-27E682FF5C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA30DBA3-2891-4073-BA0E-27E682FF5C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C6F36AF-2DEF-45DD-8B8C-D724AED060A6}
+	EndGlobalSection
+EndGlobal
